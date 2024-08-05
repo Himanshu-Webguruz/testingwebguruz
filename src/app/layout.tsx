@@ -7,19 +7,19 @@ import "../../public/css/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Head from "next/head";
 
-const poppins = Poppins({
+export const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
 });
 
-const roboto = Roboto({
+export const roboto = Roboto({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"],
   display: "swap",
 });
 
-const redHatText = Red_Hat_Text({
+export const redHatText = Red_Hat_Text({
   subsets: ["latin"],
   weight: ["300", "400", "500", "700"],
   display: "swap",
@@ -40,7 +40,7 @@ export default function RootLayout({
       <Head>
         <meta name="robots" content="noindex, nofollow" />
       </Head>
-      <body className={`${poppins.className} ${roboto.className} ${redHatText.className}`}>
+      <body className={`${poppins.className} ${roboto.className}  `}>
         <Navbar />
         {children}
         <Footer />

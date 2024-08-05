@@ -31,12 +31,12 @@ const ServiceCards = () => {
         <div className="container">
           <div className="webguruz-portHeading">
             <div className="portfolio-heading-main">
-              <h3 style={{ color: "#fff" }}>FROM IDEATION TO LAUNCH</h3>
+              <h5 style={{ color: "#fff" }}>FROM IDEATION TO LAUNCH</h5>
             </div>
             <div className="portfolio-heading-sub">
-              <h1 style={{ color: "#fff", paddingBottom: "60px" }}>
+              <h3 style={{ color: "#fff", paddingBottom: "60px" }}>
                 Here's how we make <strong>things possible</strong>
-              </h1>
+              </h3>
             </div>
           </div>
 

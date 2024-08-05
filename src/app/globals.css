@@ -14,10 +14,6 @@ button {
   font-family: Roboto, sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-  font-family: "Poppins", sans-serif;
-}
-
 /*header cs*/
 header .tphdr {
   padding: 21px 35px;
@@ -174,7 +170,7 @@ footer .dropdown li {
 }
 
 .webguruz-seo-form h3 strong {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .form-details form.homepage-form {
@@ -194,6 +190,10 @@ footer .dropdown li {
   font-family: Poppins, sans-serif;
   padding: 12px 12px;
   border: 0px;
+}
+.form-details form.homepage-form .website-input input::placeholder,
+.form-details form.homepage-form .email-input input::placeholder{
+  color: #dbdbdb;
 }
 
 .form-details form.homepage-form .website-input input:focus,
@@ -743,6 +743,7 @@ form.consltfrm .sbmt.frminr a.link-btn span {
 
 .swprft.aswcnt .dgtlcnt h2 strong {
   color: #26c6da;
+  font-weight: 600;
 }
 
 #bannersct .swprsldr .swprsldcnt .swprcninnr .swprft.social .sscl ul li a {
@@ -757,7 +758,6 @@ form.consltfrm .sbmt.frminr a.link-btn span {
 
 .swprft.aswcnt .dgtlcnt h5 {
   color: #fff;
-  font-family: Roboto, Sans-serif;
   font-size: 40px;
   font-weight: 300;
   line-height: normal;
@@ -767,7 +767,6 @@ form.consltfrm .sbmt.frminr a.link-btn span {
 .swprft.aswcnt .dgtlcnt h2 {
   font-weight: 700;
   color: #fff;
-  font-family: Roboto, Sans-serif;
   font-size: 65px;
   line-height: 74px;
   margin: 25px 0 12px;
@@ -871,7 +870,6 @@ form.consltfrm .react-tel-input .selected-flag {
   height: 90%;
   top: 2px;
 }
-
 .formbtn button.link-btn {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -883,9 +881,10 @@ form.consltfrm .react-tel-input .selected-flag {
   position: relative;
   overflow: hidden;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 14px;
   border: 0px;
+  font-family: poppins, Sans-serif;
+  font-weight: 600;
 }
 
 .formbtn button.link-btn span {
@@ -984,9 +983,20 @@ form.consltfrm .react-tel-input .selected-flag {
   background-color: rgba(255, 255, 255, 0.8);
 }
 .faq-content .accordionNew .according-heading {
-  font-family: "Poppins";
+  font-family: poppins, Sans-serif;
+}
+.heading.possible-solution-right h5 {
+  font-family: roboto, sans-serif;
+  color: #c2c2c2;
+  letter-spacing: 0px;
+  font-weight: 600;
 }
 
+.text-col.heading.possible-solution-right p {
+  font-family: '__Red_Hat_Text_c292ad';
+  color: #959595;
+  font-weight: 500;
+}
 @media(max-width :1400px){
   ul.navbar-nav li.nav-item {
     padding: 0px 12px;
@@ -1202,7 +1212,9 @@ ul.navbar-nav li.nav-item ul.dropdown-menu li a {
   .about-office .image-col img.image {
     max-width: 100%;
   }
-
+  .about-office .image-col {
+    padding-right: 50px;
+}
   .possible-solution-right {
     padding-top: 30px;
   }
@@ -1234,6 +1246,7 @@ ul.navbar-nav li.nav-item ul.dropdown-menu li a {
     left: 0;
     flex-basis: 100%;
   }
+
 
   #bannersct .swprsldr .swprsldcnt .swprcninnr .swprft.social .swprft.social {
     width: 100%;
