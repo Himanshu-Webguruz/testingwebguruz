@@ -86,7 +86,6 @@ const TestimonialContent = ({
         alt={altText}
         width={768}
         height={846}
-        layout="responsive"
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         style={{ borderRadius: "50%" }}
       />
