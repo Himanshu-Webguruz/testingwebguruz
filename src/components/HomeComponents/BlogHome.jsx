@@ -1,9 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
 import styles from "./BlogDisplay.module.css";
-import SecondBlog from "../../../public/images/SecondBlog.webp";
-import thirdBlog from "../../../public/images/thirdBlog.webp";
-import firstBlog from "../../../public/images/firstBlog.webp";
+import SecondBlog from "/public/images/SecondBlog.webp";
+import thirdBlog from "/public/images/thirdBlog.webp";
+import firstBlog from "/public/images/firstBlog.webp";
 import Image from "next/image";
 
 const blogs = [

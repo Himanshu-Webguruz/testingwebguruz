@@ -1,6 +1,6 @@
 // components/SeoFormServer.js
 import dynamic from "next/dynamic";
-import seoBackground from "../../../public/images/seo-score-bg-1.webp";
+import seoBackground from "/public/images/seo-score-bg-1.webp";
 
 const Seobackgimg = {
   backgroundImage: `url(${seoBackground.src})`,

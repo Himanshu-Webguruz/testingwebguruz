@@ -1,6 +1,6 @@
 import React from "react";
 import ClientSlides from "./ClientSlides";
-import sldrbackg from "../../../public/images/testimonials-bg.webp";
+import sldrbackg from "/public/images/testimonials-bg.webp";
 
 const ServerComponent = () => {
   return (

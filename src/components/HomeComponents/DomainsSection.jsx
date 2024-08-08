@@ -1,7 +1,7 @@
 import React from "react";
 import { services } from "../../utils/services";
 import Link from "next/link";
-import businessBanner from "../../../public/images/full-service-1.webp";
+import businessBanner from "/public/images/full-service-1.webp";
 
 const bannerImage = {
   backgroundImage: `url(${businessBanner.src})`,

@@ -1,8 +1,8 @@
 // src/components/Navbar.jsx
 "use client";
 import Link from "next/link";
-import flagimg from "../../public/images/india-flag-icon.webp";
-import logoweb from "../../public/images/logo.webp";
+import flagimg from "/public/images/india-flag-icon.webp";
+import logoweb from "/public/images/logo.webp";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

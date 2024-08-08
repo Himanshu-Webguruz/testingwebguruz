@@ -1,6 +1,6 @@
 // ConsulationServer.js
 import ConsulationClient from "./ConsulationClient";
-import consultbac from "../../../public/images/consultation.webp";
+import consultbac from "/public/images/consultation.webp";
 
 const ConsulationServer = () => {
   const ConsultbacImg = {

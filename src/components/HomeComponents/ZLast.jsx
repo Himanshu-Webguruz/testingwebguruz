@@ -16,8 +16,8 @@ import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import bannerImage1 from "../../../public/images/banner-image.webp";
-import bannerImage2 from "../../../public/images/banner-image2.webp";
+import bannerImage1 from "/public/images/banner-image.webp";
+import bannerImage2 from "/public/images/banner-image2.webp";
 
 // import required modules
 import Image from "next/image";

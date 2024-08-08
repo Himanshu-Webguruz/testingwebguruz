@@ -1,5 +1,5 @@
 import React from "react";
-import seowork from "../../../public/images/real-seo-works-1.webp";
+import seowork from "/public/images/real-seo-works-1.webp";
 import Link from "next/link";
 import services from "../../utils/servicecards";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

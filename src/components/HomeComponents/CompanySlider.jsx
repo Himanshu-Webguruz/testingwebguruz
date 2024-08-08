@@ -3,13 +3,13 @@ import React from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import Image from "next/image";
-import Seo from "../../../public/images/logo-images/google-partner.webp";
-import Nasscom from "../../../public/images/logo-images/nasscom.webp";
-import Seos from "../../../public/images/logo-images/op-seos.webp";
-import Hubspot from "../../../public/images/logo-images/hubspot-certified-partner-logo-img.webp";
-import Semrush from "../../../public/images/logo-images/semrush.webp";
-import Unnamed from "../../../public/images/logo-images/unnamed.webp";
-import Upwork from "../../../public/images/logo-images/up-work.webp";
+import Seo from "/public/images/logo-images/google-partner.webp";
+import Nasscom from "/public/images/logo-images/nasscom.webp";
+import Seos from "/public/images/logo-images/op-seos.webp";
+import Hubspot from "/public/images/logo-images/hubspot-certified-partner-logo-img.webp";
+import Semrush from "/public/images/logo-images/semrush.webp";
+import Unnamed from "/public/images/logo-images/unnamed.webp";
+import Upwork from "/public/images/logo-images/up-work.webp";
 
 const animation = { duration: 40000, easing: (t) => t };
 

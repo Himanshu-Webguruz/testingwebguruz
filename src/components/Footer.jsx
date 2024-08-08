@@ -1,14 +1,14 @@
 import Image from "next/image";
-import webguruzlogo from "../../public/images/footer-images/webguruz-logo.webp";
+import webguruzlogo from "/public/images/footer-images/webguruz-logo.webp";
 import React from "react";
-import webguruzlocation from "../../public/images/footer-images/fotter-location.webp";
-import webguruzphoneicon from "../../public/images/footer-images/phone-icon.webp";
-import webguruzemailicon from "../../public/images/footer-images/email-icon.webp";
-import indianFlag from "../../public/images/footer-images/indianflag.svg";
-import footerDmca from "../../public/images/footer-images/dmca_img.webp";
+import webguruzlocation from "/public/images/footer-images/fotter-location.webp";
+import webguruzphoneicon from "/public/images/footer-images/phone-icon.webp";
+import webguruzemailicon from "/public/images/footer-images/email-icon.webp";
+import indianFlag from "/public/images/footer-images/indianflag.svg";
+import footerDmca from "/public/images/footer-images/dmca_img.webp";
 import Link from "next/link";
 import Accordion from "./HomeComponents/Accordian";
-import footerbg from "../../public/images/footer-images/seo-score-bg-1.webp";
+import footerbg from "/public/images/footer-images/seo-score-bg-1.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faXTwitter,

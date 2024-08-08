@@ -1,5 +1,5 @@
 import Image from "next/image";
-import officespace from "../../../public/images/office-picture.webp";
+import officespace from "/public/images/office-picture.webp";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";

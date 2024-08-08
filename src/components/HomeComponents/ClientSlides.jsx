@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-import seo from "../../../public/images/office-picture.webp";
+import seo from "/public/images/office-picture.webp";
 
 const ClientComponent = ({ backgroundImage }) => {
   const swiperRef = useRef(null);
